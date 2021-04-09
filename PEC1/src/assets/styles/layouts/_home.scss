@@ -1,0 +1,87 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  font-family: $font-family-sans-serif;
+  background-color: $background-color;
+  color: $content-color;
+}
+
+.header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/comida-bg.jpeg");
+  height: 30%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.header-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+    font-size: 1em
+  }
+
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    font-size: 1em
+  }
+
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    font-size: 1.5em
+  }
+
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    font-size: 1.5em
+  }
+
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    font-size: 1.5em
+  }
+}
+
+.navigation {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.navigation li {
+  display: inline-block;
+  margin: 20px 10px 20px 10px;
+  padding: 0
+}
+
+.navigation li a {
+  color: #222222;
+  text-decoration: none;
+}
+
+.active-tab {
+  border-bottom: 2px solid #CC0000;
+  line-height: 0.5;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #9FA8A3;
+  color: white;
+  text-align: center;
+}
