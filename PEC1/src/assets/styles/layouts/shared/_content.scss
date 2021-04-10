@@ -9,3 +9,18 @@ body {
   background-color: $color-bg-primary;
   color: $color-content-primary;
 }
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.center-content {
+  margin: auto;
+  width: 80%;
+  padding: 10px;
+}
