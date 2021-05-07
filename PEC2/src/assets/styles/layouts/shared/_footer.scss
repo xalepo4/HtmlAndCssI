@@ -6,4 +6,22 @@
   background-color: $color-bg-secondary;
   color: white;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-logo {
+  width: 75px;
+  height: 60px;
+  float: right;
+  margin: 10px 20px;
+}
+
+.footer {
+  .navigation {
+    a {
+      color: white;
+    }
+  }
 }
