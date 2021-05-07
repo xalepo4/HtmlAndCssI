@@ -26,7 +26,11 @@
 
 <div class="content">
     <div class="receipt-image">
-        <img src="assets/images/escalivada.jpeg" alt="Foto de un plato de escalivada">
+        <picture>
+            <source media="(max-width: 799px)" srcset="assets/images/escalivada-sm.jpeg">
+            <source media="(min-width: 800px)" srcset="assets/images/escalivada.jpeg">
+            <img src="assets/images/escalivada.jpeg" alt="Foto de un plato de escalivada">
+        </picture>
     </div>
 
     <div class="description">

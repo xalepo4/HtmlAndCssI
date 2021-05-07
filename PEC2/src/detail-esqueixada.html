@@ -26,7 +26,11 @@
 
 <div class="content">
     <div class="receipt-image">
-        <img src="assets/images/esqueixada.jpeg" alt="Foto de un plato de esqueixada">
+        <picture>
+            <source media="(max-width: 799px)" srcset="assets/images/esqueixada-sm.jpeg">
+            <source media="(min-width: 800px)" srcset="assets/images/esqueixada.jpeg">
+            <img src="assets/images/esqueixada.jpeg" alt="Foto de un plato de esqueixada">
+        </picture>
     </div>
 
     <div class="description">

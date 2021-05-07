@@ -26,7 +26,11 @@
 
 <div class="content">
     <div class="receipt-image">
-        <img src="assets/images/fricando.jpeg" alt="Foto de un plato de fricandó">
+        <picture>
+            <source media="(max-width: 799px)" srcset="assets/images/fricando-sm.jpeg">
+            <source media="(min-width: 800px)" srcset="assets/images/fricando.jpeg">
+            <img src="assets/images/fricando.jpeg" alt="Foto de un plato de fricandó">
+        </picture>
     </div>
 
     <div class="description">
