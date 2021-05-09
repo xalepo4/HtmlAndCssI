@@ -1,14 +1,14 @@
 <svg id="ad6b5295-7ebf-4dc3-a7a8-a4a4b8d35fca" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="790" height="512.20805" viewBox="0 0 790 512.20805">
 	<!-- Style created for show/hide exclamation class -->
-	<style type="text/css">		
+	<style type="text/css">
 		@keyframes showhide {
 			0% { opacity: 1; }
 			10% { opacity: 1; }
 			15% { opacity: 1; }
 			100% { opacity: 0; }
 		}
-		
-		.exclamation{
+
+		.exclamation {
 			opacity: 1;
 			animation: showhide 2s ease infinite;
 		}
