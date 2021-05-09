@@ -24,4 +24,9 @@
 
 .category-link {
   text-decoration: none;
+  color: $color-link;
+}
+
+.category-link:hover {
+  color: $color-link-hover;
 }
