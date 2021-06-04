@@ -29,7 +29,7 @@
         <picture>
             <source media="(max-width: 799px)" srcset="assets/images/trinxat-sm.jpeg">
             <source media="(min-width: 800px)" srcset="assets/images/trinxat.jpeg">
-            <img class="receipt-img" src="assets/images/trinxat.jpeg" alt="Foto de un plato de trinxat">
+            <img class="receipt-img" src="assets/images/trinxat.jpeg" alt="Foto de un plato de trinxat" loading="lazy">
         </picture>
     </div>
 
@@ -81,10 +81,11 @@
             servimos inmediatamente.
         </p>
 
-        <img class="elaboration-img" srcset="assets/images/elaboracion-480w.jpg 480w, assets/images/elaboracion-800w.jpg 800w"
+        <img class="elaboration-img"
+             srcset="assets/images/elaboracion-480w.jpg 480w, assets/images/elaboracion-800w.jpg 800w"
              sizes="(max-width: 600px) 480px, 800px"
              src="assets/images/elaboracion-800w.jpg"
-             alt="Elaboración en una cocina">
+             alt="Elaboración en una cocina" loading="lazy">
     </div>
 
     <div class="more-info">
@@ -99,21 +100,24 @@
 
     <div class="other-recipes">
         <h2>Otras recetas populares</h2>
+
         <div class="receipts">
             <div>
-                <img class="receipt-avatar" src="assets/images/escalivada.jpeg" alt="Rosa Castro"/>
+                <img class="receipt-avatar" src="assets/images/escalivada.jpeg" alt="Plato de escalivada"
+                     loading="lazy"/>
                 <a class="category-link" href="detail-escalivada.html">Escalivada</a>
             </div>
             <div>
-                <img class="receipt-avatar" src="assets/images/esqueixada.jpeg" alt="Xavi Martinez"/>
+                <img class="receipt-avatar" src="assets/images/esqueixada.jpeg" alt="Plato de esqueixada"
+                     loading="lazy"/>
                 <a class="category-link" href="detail-esqueixada.html">Esqueixada</a>
             </div>
             <div>
-                <img class="receipt-avatar" src="assets/images/trinxat.jpeg" alt="Alba Rodriguez"/>
+                <img class="receipt-avatar" src="assets/images/trinxat.jpeg" alt="Plato de trinxat" loading="lazy"/>
                 <a class="category-link" href="detail-trinxat.html">Trinxat</a>
             </div>
             <div>
-                <img class="receipt-avatar" src="assets/images/fricando.jpeg" alt="Carla Perez"/>
+                <img class="receipt-avatar" src="assets/images/fricando.jpeg" alt="Plato de fricando" loading="lazy"/>
                 <a class="category-link" href="detail-fricando.html">Fricandó</a>
             </div>
         </div>
@@ -121,7 +125,7 @@
 </main>
 
 <footer>
-    <img class="footer-logo" src="assets/images/logo.png" alt="Logotipo de la página web"></li>
+    <img class="footer-logo" src="assets/images/logo.png" alt="Logotipo de la página web">
 
     <ul class="navigation">
         <li><a href="index.html">Portada</a></li>
