@@ -1,0 +1,28 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  font-family: $font-family-sans-serif;
+  background-color: $color-bg-primary;
+  color: $color-content-primary;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main {
+  margin: auto;
+  width: 80%;
+  padding: 10px;
+  padding-bottom: 150px;
+}
+
+.center-text {
+  text-align: center;
+}

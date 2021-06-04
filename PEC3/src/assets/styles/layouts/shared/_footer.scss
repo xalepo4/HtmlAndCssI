@@ -1,0 +1,36 @@
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: $color-bg-secondary;
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .navigation {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+    li {
+      display: inline-block;
+      margin: 20px 10px 20px 10px;
+      padding: 0;
+
+      a {
+        color: white;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.footer-logo {
+  width: 75px;
+  height: 60px;
+  float: right;
+  margin: 10px 20px;
+}

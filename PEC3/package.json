@@ -1,0 +1,36 @@
+{
+  "name": "html-css-boilerplate",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Boilerplate created for HTML and CSS I PECS",
+  "scripts": {
+    "dev": "npm-run-all clean parcel:dev",
+    "build": "npm-run-all clean parcel:build",
+    "parcel:dev": "parcel src/index.html",
+    "parcel:build": "parcel build src/index.html",
+    "clean": "rimraf dist .cache .cache-loader"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:xalepo4/HtmlAndCssI.git"
+  },
+  "author": {
+    "name": "Xavier Ledesma",
+    "email": "xaviledesma@uoc.edu"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xalepo4/HtmlAndCssI/issues"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.8.6",
+    "npm-run-all": "^4.1.5",
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-imagemin": "^4.0.2",
+    "rimraf": "^2.7.1",
+    "sass": "^1.32.12"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.2"
+  }
+}
