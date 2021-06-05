@@ -1,8 +1,15 @@
-@import "../variables";
 @import "shared/header";
 @import "shared/navigation";
 @import "shared/content";
 @import "shared/category";
 @import "shared/footer";
 
+.receipt-img {
+  width: 100%;
+  height: auto;
+}
 
+.elaboration-img {
+  width: 100%;
+  height: auto;
+}
